@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.301.7",
+            "version": "3.302.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2fd8cae93e87326f2263c420fa9031ad8903a2f2"
+                "reference": "cb343ed4fc5d86c0ddf8e948f0271052f183f937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2fd8cae93e87326f2263c420fa9031ad8903a2f2",
-                "reference": "2fd8cae93e87326f2263c420fa9031ad8903a2f2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cb343ed4fc5d86c0ddf8e948f0271052f183f937",
+                "reference": "cb343ed4fc5d86c0ddf8e948f0271052f183f937",
                 "shasum": ""
             },
             "require": {
@@ -151,9 +151,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.301.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.302.0"
             },
-            "time": "2024-03-25T18:14:28+00:00"
+            "time": "2024-03-29T18:07:04+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -211,16 +211,16 @@
         },
         {
             "name": "bref/bref",
-            "version": "2.1.17",
+            "version": "2.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brefphp/bref.git",
-                "reference": "6041ad7d5ca1901dfb91323c9a903ec0d4fc9333"
+                "reference": "0c27b09488f5d661436f1e6e8113684de079a45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brefphp/bref/zipball/6041ad7d5ca1901dfb91323c9a903ec0d4fc9333",
-                "reference": "6041ad7d5ca1901dfb91323c9a903ec0d4fc9333",
+                "url": "https://api.github.com/repos/brefphp/bref/zipball/0c27b09488f5d661436f1e6e8113684de079a45b",
+                "reference": "0c27b09488f5d661436f1e6e8113684de079a45b",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +274,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brefphp/bref/issues",
-                "source": "https://github.com/brefphp/bref/tree/2.1.17"
+                "source": "https://github.com/brefphp/bref/tree/2.1.19"
             },
             "funding": [
                 {
@@ -286,7 +286,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-22T12:39:34+00:00"
+            "time": "2024-03-28T13:33:17+00:00"
         },
         {
             "name": "brick/math",
@@ -1111,16 +1111,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c"
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ced299686f41dce890debac69273b47ffe98a40c",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
                 "shasum": ""
             },
             "require": {
@@ -1131,7 +1131,7 @@
             "require-dev": {
                 "phpstan/phpstan": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.1",
-                "symfony/phpunit-bridge": "^6.0"
+                "phpunit/phpunit": "^8.5 || ^9.6 || ^10.5"
             },
             "type": "library",
             "autoload": {
@@ -1155,9 +1155,9 @@
                 "performance"
             ],
             "support": {
-                "irc": "irc://irc.freenode.org/composer",
+                "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/xdebug-handler/issues",
-                "source": "https://github.com/composer/xdebug-handler/tree/3.0.3"
+                "source": "https://github.com/composer/xdebug-handler/tree/3.0.4"
             },
             "funding": [
                 {
@@ -1173,7 +1173,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T21:32:43+00:00"
+            "time": "2024-03-26T18:29:49+00:00"
         },
         {
             "name": "craftcms/aws-s3",
@@ -1241,16 +1241,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.0.0-RC1",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "04755d93f86d07cc183db47db8a0eee106892e30"
+                "reference": "f6a8fb685d44e387435825e3a96809eeda4973a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/04755d93f86d07cc183db47db8a0eee106892e30",
-                "reference": "04755d93f86d07cc183db47db8a0eee106892e30",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/f6a8fb685d44e387435825e3a96809eeda4973a6",
+                "reference": "f6a8fb685d44e387435825e3a96809eeda4973a6",
                 "shasum": ""
             },
             "require": {
@@ -1359,7 +1359,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2024-03-25T21:41:37+00:00"
+            "time": "2024-03-26T17:19:11+00:00"
         },
         {
             "name": "craftcms/commerce",
@@ -6448,19 +6448,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/putyourlightson/craft-sprig.git",
-                "reference": "b90dd495b0c2f651441e2063762d8bd0e0af22b8"
+                "reference": "35cb9d0de8fd53123a71c260517bd116f0b05a6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/putyourlightson/craft-sprig/zipball/b90dd495b0c2f651441e2063762d8bd0e0af22b8",
-                "reference": "b90dd495b0c2f651441e2063762d8bd0e0af22b8",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig/zipball/35cb9d0de8fd53123a71c260517bd116f0b05a6e",
+                "reference": "35cb9d0de8fd53123a71c260517bd116f0b05a6e",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^5.0.0-beta.1",
+                "craftcms/cms": "^5.0.0",
                 "nystudio107/craft-code-editor": "^1.0.0",
                 "php": "^8.2",
-                "putyourlightson/craft-sprig-core": "^3.0.0-beta.1"
+                "putyourlightson/craft-sprig-core": "^3.0.0-beta.2"
             },
             "require-dev": {
                 "craftcms/ecs": "dev-main",
@@ -6473,7 +6473,7 @@
                 "developer": "PutYourLightsOn",
                 "developerUrl": "https://putyourlightson.com/",
                 "documentationUrl": "https://putyourlightson.com/plugins/sprig",
-                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-sprig/v2/CHANGELOG.md",
+                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-sprig/v3/CHANGELOG.md",
                 "class": "putyourlightson\\sprig\\plugin\\Sprig"
             },
             "autoload": {
@@ -6497,32 +6497,33 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-14T14:40:40+00:00"
+            "time": "2024-03-27T02:48:17+00:00"
         },
         {
             "name": "putyourlightson/craft-sprig-core",
-            "version": "3.0.0-beta.1",
+            "version": "3.0.0-beta.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/putyourlightson/craft-sprig-core.git",
-                "reference": "4b6fec787274f675089d05a408bc35b7105cd27f"
+                "reference": "7e99eef43feb43a5707c8f1dc06a31b40c5099a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/putyourlightson/craft-sprig-core/zipball/4b6fec787274f675089d05a408bc35b7105cd27f",
-                "reference": "4b6fec787274f675089d05a408bc35b7105cd27f",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig-core/zipball/7e99eef43feb43a5707c8f1dc06a31b40c5099a7",
+                "reference": "7e99eef43feb43a5707c8f1dc06a31b40c5099a7",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^5.0.0-beta.1",
+                "craftcms/cms": "^5.0.0",
                 "php": "^8.2"
             },
             "require-dev": {
                 "craftcms/ecs": "dev-main",
-                "craftcms/generator": "^1.0.0",
+                "craftcms/generator": "2.0.x-dev",
                 "craftcms/phpstan": "dev-main",
                 "markhuot/craft-pest-core": "v3.x-dev",
-                "putyourlightson/craft-sprig": "^2.0.0",
+                "putyourlightson/craft-generate-test-spec": "v2.x-dev",
+                "putyourlightson/craft-sprig": "^3.0.0-beta.1",
                 "vlucas/phpdotenv": "^5.4.1"
             },
             "type": "craft-module",
@@ -6541,7 +6542,7 @@
                 "issues": "https://github.com/putyourlightson/craft-sprig-core/issues",
                 "source": "https://github.com/putyourlightson/craft-sprig-core"
             },
-            "time": "2024-02-14T14:27:04+00:00"
+            "time": "2024-03-27T02:45:48+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -7145,16 +7146,16 @@
         },
         {
             "name": "solspace/craft-freeform",
-            "version": "5.1.7",
+            "version": "5.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solspace/craft-freeform.git",
-                "reference": "41005c477353b984784f232b1afa83be20e1a834"
+                "reference": "f7faa9c8e6df878eea9e08ca93b5c9eddcd5274b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/41005c477353b984784f232b1afa83be20e1a834",
-                "reference": "41005c477353b984784f232b1afa83be20e1a834",
+                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/f7faa9c8e6df878eea9e08ca93b5c9eddcd5274b",
+                "reference": "f7faa9c8e6df878eea9e08ca93b5c9eddcd5274b",
                 "shasum": ""
             },
             "require": {
@@ -7221,9 +7222,9 @@
             "description": "The most reliable form builder that's ready for wherever your project takes you.",
             "support": {
                 "issues": "https://github.com/solspace/craft-freeform/issues",
-                "source": "https://github.com/solspace/craft-freeform/tree/v5.1.7"
+                "source": "https://github.com/solspace/craft-freeform/tree/v5.1.8"
             },
-            "time": "2024-03-22T18:43:29+00:00"
+            "time": "2024-03-27T19:14:28+00:00"
         },
         {
             "name": "spomky-labs/cbor-php",
@@ -12289,16 +12290,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.65",
+            "version": "1.10.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "3c657d057a0b7ecae19cb12db446bbc99d8839c6"
+                "reference": "94779c987e4ebd620025d9e5fdd23323903950bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3c657d057a0b7ecae19cb12db446bbc99d8839c6",
-                "reference": "3c657d057a0b7ecae19cb12db446bbc99d8839c6",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/94779c987e4ebd620025d9e5fdd23323903950bd",
+                "reference": "94779c987e4ebd620025d9e5fdd23323903950bd",
                 "shasum": ""
             },
             "require": {
@@ -12347,7 +12348,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-23T10:30:26+00:00"
+            "time": "2024-03-28T16:17:31+00:00"
         },
         {
             "name": "psy/psysh",
