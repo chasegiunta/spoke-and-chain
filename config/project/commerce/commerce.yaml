@@ -1,4 +1,4 @@
-stores084e99dd-eb3e-4322-8616-8a04eda795ae:
+stores084e99dd-eb3e-4322-8616-8a04eda795ae: # Primary Store
   currency: USD
   handle: primaryStore
   name: 'Primary Store'

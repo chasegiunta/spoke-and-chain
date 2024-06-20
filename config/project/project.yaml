@@ -1,4 +1,4 @@
-dateModified: 1711471027
+dateModified: 1718893347
 elementSources:
   craft\elements\Asset:
     -
@@ -120,6 +120,7 @@ meta:
     70e125cc-65ea-4a3f-a65f-a5c91efcbfe7: Checkout # Checkout
     74c53fbd-78e5-4125-87f7-38c75efce7d3: Cart # Cart
     77bd0dab-6333-4b99-8a94-7e6042944ba7: Received # Received
+    084e99dd-eb3e-4322-8616-8a04eda795ae: 'Primary Store' # Primary Store
     86ec2b26-5d53-4798-8fb0-927890e52039: Body # Body
     89d30b8d-7f71-4571-bfd3-572a14dc6538: 'VIP Customers' # VIP Customers
     97a0491d-814e-4172-811d-51096a86e67d: Plans # Plans
@@ -208,7 +209,11 @@ plugins:
     edition: pro
     enabled: true
     licenseKey: SI24H20R5SQCC22FZMXL94F7
-    schemaVersion: 5.0.68
+    schemaVersion: 5.0.74
+  craft-js:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   default-dashboard:
     edition: standard
     enabled: true
@@ -223,7 +228,7 @@ plugins:
     edition: pro
     enabled: true
     licenseKey: 5MSLVVCLNO91XX5P8MBVKF1N
-    schemaVersion: 5.0.21
+    schemaVersion: 5.2.0
     settings:
       ajaxByDefault: false
       alertNotificationRecipients: ''
