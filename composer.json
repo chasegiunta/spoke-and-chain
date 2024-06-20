@@ -20,18 +20,19 @@
   "require": {
     "php": "^8.2",
     "bref/bref": "^2.0",
+    "chasegiunta/craft-js": "dev-main",
     "craftcms/aws-s3": "^2.2.0",
     "craftcms/yii2-dynamodb": "^2.0.1",
-    "craftcms/cms": "^5.0.0-beta.4",
+    "craftcms/cms": "^5.0.0",
     "craftcms/commerce": "^5.0.0-beta.1",
-    "craftcms/redactor": "4.0.x-dev",
+    "craftcms/redactor": "^4.0.x-dev",
     "craftcms/store-hours": "^4",
     "fakerphp/faker": "^1.9",
-    "nystudio107/craft-seomatic": "v5.x-dev",
-    "nystudio107/craft-twigpack": "v5.x-dev",
+    "nystudio107/craft-seomatic": "^5.x-dev",
+    "nystudio107/craft-twigpack": "^5.x-dev",
     "solspace/craft-freeform": "^5",
     "oberon/starfield": "dev-master",
-    "putyourlightson/craft-sprig": "v3.x-dev",
+    "putyourlightson/craft-sprig": "^3.0.0",
     "vlucas/phpdotenv": "^5.4.1"
   },
   "repositories": [
@@ -42,10 +43,22 @@
     {
       "type": "vcs",
       "url": "https://github.com/craftcms/craft-starfield"
+    },
+    {
+      "type": "path",
+      "url": "./../craft-js",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "path",
+      "url": "plugins/computed"
     }
   ],
   "require-dev": {
     "craftcms/ecs": "dev-main",
+    "craftcms/generator": "^2.1",
     "craftcms/phpstan": "dev-main",
     "yiisoft/yii2-shell": "^2.0.3"
   },
